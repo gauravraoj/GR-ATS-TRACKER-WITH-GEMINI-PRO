@@ -1,6 +1,6 @@
 import streamlit as st
 import fitz  # PyMuPDF
-
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 st.set_page_config(page_title="GR ATS RESUME EXPERT")
 st.header("ATS TRACKING SYSTEM")
 
